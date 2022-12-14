@@ -4,6 +4,6 @@ const formidable = require('express-formidable');
 
 
 module.exports = app => {
-    app.use(formidable());
+    app.use(formidable()); 
     return app;
 }
